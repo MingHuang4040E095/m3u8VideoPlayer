@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     // 首頁
-    path: '/',
+    path: 'demo/m3u8VideoPlayer/',
+    // path: '/',
     name: 'Home',
     component: () => import('@/views/TheHome.vue'),
   },

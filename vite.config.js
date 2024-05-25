@@ -4,7 +4,8 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/m3u8VideoPlayer/',
+  base: '/demo/m3u8VideoPlayer/',
+  // base: '/',
   plugins: [vue()],
   // server: {
   //   port: 8080,
